@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+    body{
+    align-items: center;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  font-family: "Figtree", serif;
+  justify-content: center;
+  height: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+    }
+
+    .card{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px hsl(0, 0%, 7%);
+    padding: 20px;
+    top: 25%;
+    /* text-align: center; */
+    width: 300px;
+    height: 475px;
+    }
+
+    .title{
+      width: 65px;
+      height: 20px;
+      background-color: hsl(47, 88%, 63%);
+      border-radius: 5px;
+      padding: 2px 5px;
+    }
+
+    .article {
+        border-radius: 15px;
+    
+    width: 300px;
+  }
+
+  .paragraph{
+    color: hsl(0, 0%, 50%);
+    font-size: 14px;
+  }
+  section.cardbottom {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 2.4rem;
+}
+
+p.cardbottom__name {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+img.cardbottom__img {
+    width: 50%;
+    max-width: 3rem;
+}
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<section class="card">
+  <img class="article" src="assets/images/illustration-article.svg" alt="" />
+  <p class="title">Learning</p>
+
+  <h5 class="title2">Published 21 Dec 2023</h5>
+
+ <h2> HTML & CSS foundations</h2>
+
+ <p class="paragraph"> These languages are the backbone of every website, defining structure, content, and presentation.</p>
+
+ <section class="cardbottom">
+  <img src="/projects/blog-preview-card-main/assets/images/image-avatar.webp" alt="Greg headshot" class="cardbottom__img">
+  <p class="cardbottom__name">Greg Hooper</p>
+  </section>
+</section>
+</body>
+</html>
